@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/handheld_rod",
+  "textures": { "layer0": "minecraft:item/fishing_rod" },
+  "overrides": [
+    { "predicate": { "custom_model_data": 3001, "cast": 0 }, "model": "minecraft:item/fishing/carbon_rod" },
+    { "predicate": { "custom_model_data": 3001, "cast": 1 }, "model": "minecraft:item/fishing/carbon_rod_cast" },
+    { "predicate": { "custom_model_data": 3002, "cast": 0 }, "model": "minecraft:item/fishing/master_rod" },
+    { "predicate": { "custom_model_data": 3002, "cast": 1 }, "model": "minecraft:item/fishing/master_rod_cast" },
+    { "predicate": { "custom_model_data": 3003, "cast": 0 }, "model": "minecraft:item/fishing/arcade_rod" },
+    { "predicate": { "custom_model_data": 3003, "cast": 1 }, "model": "minecraft:item/fishing/arcade_rod_cast" }
+  ]
+}
