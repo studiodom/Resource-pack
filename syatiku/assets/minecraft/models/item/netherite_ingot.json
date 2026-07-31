@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/netherite_ingot"
+  },
+  "overrides": [
+    {
+      "predicate": { "custom_model_data": 9999 },
+      "model": "minecraft:item/atm/atm_block"
+    }
+  ]
+}
