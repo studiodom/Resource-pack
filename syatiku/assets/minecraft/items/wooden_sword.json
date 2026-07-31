@@ -1,0 +1,26 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 10005,
+        "model": {
+          "type": "model",
+          "model": "item/cypress_stick"
+        }
+      },
+      {
+        "threshold": 10006,
+        "model": {
+          "type": "model",
+          "model": "item/wooden_bat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/wooden_sword"
+    }
+  }
+}

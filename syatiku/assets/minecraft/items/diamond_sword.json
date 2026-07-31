@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 10001,
+        "model": {
+          "type": "model",
+          "model": "item/yoguire"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_sword"
+    }
+  }
+}

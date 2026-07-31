@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 10003,
+        "model": {
+          "type": "model",
+          "model": "item/rapier"
+        }
+      },
+      {
+        "threshold": 10004,
+        "model": {
+          "type": "model",
+          "model": "item/lance"
+        }
+      },
+      {
+        "threshold": 10007,
+        "model": {
+          "type": "model",
+          "model": "item/metal_bat"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/iron_sword"
+    }
+  }
+}

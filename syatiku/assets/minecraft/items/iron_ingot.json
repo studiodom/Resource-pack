@@ -1,0 +1,17 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": { "type": "minecraft:model", "model": "minecraft:item/iron_ingot" },
+        "entries": [
+            { "threshold": 10001.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/phone" } },
+            { "threshold": 10002.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/phone_on" } },
+            { "threshold": 10010.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_atm" } },
+            { "threshold": 10011.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_ponpoko" } },
+            { "threshold": 10012.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_message" } },
+            { "threshold": 10018.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_nhk" } },
+            { "threshold": 10019.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_bote" } },
+            { "threshold": 10020.0, "model": { "type": "minecraft:model", "model": "minecraft:item/bos/icon_domtter" } }
+        ]
+    }
+}

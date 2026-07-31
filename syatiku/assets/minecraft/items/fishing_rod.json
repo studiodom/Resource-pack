@@ -1,0 +1,43 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/fishing_rod"
+        },
+        "entries": [
+            {
+                "threshold": 3001.0,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_true": { "type": "minecraft:model", "model": "minecraft:item/fishing/carbon_rod_cast" },
+                    "on_false": { "type": "minecraft:model", "model": "minecraft:item/fishing/carbon_rod" }
+                }
+            },
+            {
+                "threshold": 3002.0,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_true": { "type": "minecraft:model", "model": "minecraft:item/fishing/master_rod_cast" },
+                    "on_false": { "type": "minecraft:model", "model": "minecraft:item/fishing/master_rod" }
+                }
+            },
+            {
+                "threshold": 3003.0,
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:fishing_rod/cast",
+                    "on_true": { "type": "minecraft:model", "model": "minecraft:item/fishing/arcade_rod_cast" },
+                    "on_false": { "type": "minecraft:model", "model": "minecraft:item/fishing/arcade_rod" }
+                }
+            },
+            {
+                "threshold": 3004.0,
+                "model": { "type": "minecraft:model", "model": "minecraft:item/fishing_rod" }
+            }
+        ]
+    }
+}

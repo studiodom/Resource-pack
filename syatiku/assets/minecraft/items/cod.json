@@ -1,0 +1,74 @@
+{
+    "model": {
+        "type": "minecraft:range_dispatch",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/cod"
+        },
+        "entries": [
+            { "threshold": 1001.0, "model": { "type": "model", "model": "minecraft:item/fishing/cod" } },
+            { "threshold": 1002.0, "model": { "type": "model", "model": "minecraft:item/fishing/iwashi" } },
+            { "threshold": 1003.0, "model": { "type": "model", "model": "minecraft:item/fishing/aji" } },
+            { "threshold": 1004.0, "model": { "type": "model", "model": "minecraft:item/fishing/saba" } },
+            { "threshold": 1005.0, "model": { "type": "model", "model": "minecraft:item/fishing/kisu" } },
+            { "threshold": 1006.0, "model": { "type": "model", "model": "minecraft:item/fishing/karei" } },
+            { "threshold": 1007.0, "model": { "type": "model", "model": "minecraft:item/fishing/wakasagi" } },
+            { "threshold": 1008.0, "model": { "type": "model", "model": "minecraft:item/fishing/tire" } },
+            { "threshold": 1009.0, "model": { "type": "model", "model": "minecraft:item/fishing/boots" } },
+            { "threshold": 1010.0, "model": { "type": "model", "model": "minecraft:item/fishing/wakame" } },
+            { "threshold": 1011.0, "model": { "type": "model", "model": "minecraft:item/fishing/kasago" } },
+            { "threshold": 1012.0, "model": { "type": "model", "model": "minecraft:item/fishing/mutsugoro" } },
+            { "threshold": 1013.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+
+            { "threshold": 1101.0, "model": { "type": "model", "model": "minecraft:item/fishing/salmon" } },
+            { "threshold": 1102.0, "model": { "type": "model", "model": "minecraft:item/fishing/buri" } },
+            { "threshold": 1103.0, "model": { "type": "model", "model": "minecraft:item/fishing/hirame" } },
+            { "threshold": 1104.0, "model": { "type": "model", "model": "minecraft:item/fishing/tai" } },
+            { "threshold": 1105.0, "model": { "type": "model", "model": "minecraft:item/fishing/suzuki" } },
+            { "threshold": 1106.0, "model": { "type": "model", "model": "minecraft:item/fishing/itou" } },
+            { "threshold": 1107.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+            { "threshold": 1108.0, "model": { "type": "model", "model": "minecraft:item/fishing/hokke" } },
+            { "threshold": 1109.0, "model": { "type": "model", "model": "minecraft:item/fishing/kani" } },
+            { "threshold": 1110.0, "model": { "type": "model", "model": "minecraft:item/fishing/ebi" } },
+            { "threshold": 1111.0, "model": { "type": "model", "model": "minecraft:item/fishing/tako" } },
+            { "threshold": 1112.0, "model": { "type": "model", "model": "minecraft:item/fishing/ika" } },
+            { "threshold": 1113.0, "model": { "type": "model", "model": "minecraft:item/fishing/clownfish" } },
+            { "threshold": 1114.0, "model": { "type": "model", "model": "minecraft:item/fishing/bluetang" } },
+            { "threshold": 1115.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+
+            { "threshold": 1201.0, "model": { "type": "model", "model": "minecraft:item/fishing/kanpachi" } },
+            { "threshold": 1202.0, "model": { "type": "model", "model": "minecraft:item/fishing/kue" } },
+            { "threshold": 1203.0, "model": { "type": "model", "model": "minecraft:item/fishing/sawara" } },
+            { "threshold": 1204.0, "model": { "type": "model", "model": "minecraft:item/fishing/tachiuo" } },
+            { "threshold": 1205.0, "model": { "type": "model", "model": "minecraft:item/fishing/pukupukutai" } },
+            { "threshold": 1206.0, "model": { "type": "model", "model": "minecraft:item/fishing/taiyaki" } },
+            { "threshold": 1207.0, "model": { "type": "model", "model": "minecraft:item/fishing/fugu" } },
+            { "threshold": 1208.0, "model": { "type": "model", "model": "minecraft:item/fishing/seahorse" } },
+            { "threshold": 1209.0, "model": { "type": "model", "model": "minecraft:item/fishing/jellyfish" } },
+            { "threshold": 1210.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+
+            { "threshold": 1301.0, "model": { "type": "model", "model": "minecraft:item/fishing/tuna" } },
+            { "threshold": 1302.0, "model": { "type": "model", "model": "minecraft:item/fishing/kajiki" } },
+            { "threshold": 1303.0, "model": { "type": "model", "model": "minecraft:item/fishing/manbou" } },
+            { "threshold": 1304.0, "model": { "type": "model", "model": "minecraft:item/fishing/jinbe" } },
+            { "threshold": 1305.0, "model": { "type": "model", "model": "minecraft:item/fishing/turtle" } },
+            { "threshold": 1306.0, "model": { "type": "model", "model": "minecraft:item/fishing/iseebi" } },
+            { "threshold": 1307.0, "model": { "type": "model", "model": "minecraft:item/fishing/taraba" } },
+            { "threshold": 1308.0, "model": { "type": "model", "model": "minecraft:item/fishing/dolphin" } },
+            { "threshold": 1309.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+
+            { "threshold": 1401.0, "model": { "type": "model", "model": "minecraft:item/fishing/ryugu" } },
+            { "threshold": 1402.0, "model": { "type": "model", "model": "minecraft:item/fishing/coelacanth" } },
+            { "threshold": 1403.0, "model": { "type": "model", "model": "minecraft:item/fishing/shumoku" } },
+            { "threshold": 1404.0, "model": { "type": "model", "model": "minecraft:item/fishing/hohojiro" } },
+            { "threshold": 1405.0, "model": { "type": "model", "model": "minecraft:item/fishing/daiouika" } },
+            { "threshold": 1406.0, "model": { "type": "model", "model": "minecraft:item/fishing/bluewhale" } },
+            { "threshold": 1407.0, "model": { "type": "model", "model": "minecraft:item/cod" } },
+
+            { "threshold": 1501.0, "model": { "type": "model", "model": "minecraft:item/fishing/gold_carp" } },
+            { "threshold": 1502.0, "model": { "type": "model", "model": "minecraft:item/fishing/koiking" } },
+            { "threshold": 1503.0, "model": { "type": "model", "model": "minecraft:item/cod" } }
+        ]
+    }
+}

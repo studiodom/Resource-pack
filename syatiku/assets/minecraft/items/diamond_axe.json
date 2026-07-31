@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 10002,
+        "model": {
+          "type": "model",
+          "model": "item/heavy_greataxe"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "model",
+      "model": "item/diamond_axe"
+    }
+  }
+}
