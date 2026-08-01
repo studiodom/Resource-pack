@@ -1,0 +1,872 @@
+{
+    "multipart":  [
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ns"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_n",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_n",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ne",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_n"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ne",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ns"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_nse",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_n",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ns",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ne",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_nse",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_ne"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_nse",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_nse"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_nsew"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ns"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_n",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_n",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ne",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_n"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ne",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ns"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_nse",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_n",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ns",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ne",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_nse",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_ne"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_nse",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_nse"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true",
+                                       "disarmed":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "minecraft:block/tripwire_attached_nsew"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/tomato_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/tomato_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/tomato_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/tomato_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/corn_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/corn_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/corn_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/corn_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cucumber_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cucumber_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cucumber_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cucumber_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/eggplant_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/eggplant_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/eggplant_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "false",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/eggplant_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cabbage_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cabbage_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cabbage_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/cabbage_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/broccoli_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/broccoli_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/broccoli_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/broccoli_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/sweet_potato_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/sweet_potato_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/sweet_potato_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "false",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/sweet_potato_stage3"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/onion_stage0"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "false",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/onion_stage1"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "false",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/onion_stage2"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "attached":  "true",
+                                       "disarmed":  "true",
+                                       "powered":  "true",
+                                       "east":  "true",
+                                       "north":  "true",
+                                       "south":  "true",
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "agriculture:block/onion_stage3"
+                                    }
+                      }
+                  ]
+}
