@@ -1,13 +1,91 @@
 {
-    "model": {
-        "type": "minecraft:range_dispatch",
-        "property": "minecraft:custom_model_data",
-        "fallback": { "type": "model", "model": "minecraft:item/iron_nugget" },
-        "entries": [
-            {
-                "threshold": 5001.0,
-                "model": { "type": "model", "model": "minecraft:item/fishing/medal" }
-            }
-        ]
+  "loader": "minecraft:item",
+  "model": {
+    "type": "minecraft:range_dispatch",
+    "property": "minecraft:custom_model_data",
+    "index": 0,
+    "entries": [
+      {
+        "threshold": 1.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/peridot"
+        }
+      },
+      {
+        "threshold": 2.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/spinel"
+        }
+      },
+      {
+        "threshold": 3.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tourmaline"
+        }
+      },
+      {
+        "threshold": 4.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/topaz"
+        }
+      },
+      {
+        "threshold": 5.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/aquamarine"
+        }
+      },
+      {
+        "threshold": 6.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/garnet"
+        }
+      },
+      {
+        "threshold": 7.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sapphire"
+        }
+      },
+      {
+        "threshold": 8.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/ruby"
+        }
+      },
+      {
+        "threshold": 9.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/tanzanite"
+        }
+      },
+      {
+        "threshold": 5001.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fishing/medal"
+        }
+      },
+      {
+        "threshold": 10.0,
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/black_opal"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/iron_nugget"
     }
+  }
 }
